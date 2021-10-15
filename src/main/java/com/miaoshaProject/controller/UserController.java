@@ -34,7 +34,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.POST;
 public class UserController extends BaseController{
 
     @Autowired
-    private UserService userService;
+    private UserService  userService;
 
     @Autowired
     private HttpServletRequest httpServletRequest;
